@@ -1,11 +1,11 @@
 {
-  "name": "shift-draggable-list",
+  "name": "react-draggable-list",
   "version": "0.1.0",
   "description": "Draggable list built for Shift",
   "main": "build/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/giancarlokc/shift-draggable-list.git"
+    "url": "git+https://github.com/rdbrck/react-draggable-list.git"
   },
   "keywords": [
     "react",
@@ -19,14 +19,14 @@
   "author": "RedBrick",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/giancarlokc/shift-draggable-list/issues"
+    "url": "https://github.com/rdbrck/react-draggable-list/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
     "build": "webpack"
   },
-  "homepage": "https://github.com/giancarlokc/shift-draggable-list#readme",
+  "homepage": "https://github.com/rdbrck/react-draggable-list#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
