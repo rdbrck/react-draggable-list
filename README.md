@@ -22,7 +22,7 @@ npm install git+https://github.com/rdbrck/react-draggable-list.git
 
 ```js
 const React = require('react')
-const DraggableList = require('shift-draggable-list')
+const DraggableList = require('react-draggable-list')
 
 getInitialState () {
   return [
