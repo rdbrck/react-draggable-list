@@ -62,7 +62,7 @@ matchMouseDownButton | number | No       | 0       | Restrict drag to specific m
 
 Footnotes:<br />
 1 - Setting this property to zero might cause unwanted behavior like blocking inner click events and more;<br />
-2 - For mouse button refer to https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/button.
+2 - For mouse button event refer to https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/button.
 
 ## Tests
 
@@ -70,4 +70,4 @@ Coming soon...
 
 ## License
 
-**shift-draggable-list** is released under the MIT license: https://opensource.org/licenses/MIT.
+**react-draggable-list** is released under the MIT license: https://opensource.org/licenses/MIT.
