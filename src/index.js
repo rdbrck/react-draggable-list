@@ -52,6 +52,7 @@ module.exports = React.createClass({
                 }
             }
         }
+
         if (updateList) this.setState(this.getInitialState(nextProps))
     },
 
