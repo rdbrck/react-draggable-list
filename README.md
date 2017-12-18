@@ -1,5 +1,5 @@
-# shift-draggable-list
-A draggable React vertical list component made for Shift side-list
+# react-draggable-list
+A draggable React vertical list component
 
 ## Development
 
@@ -15,7 +15,7 @@ Coming soon...
 ## Install
 
 ```
-npm install git+https://github.com/giancarlokc/shift-draggable-list.git
+npm install git+https://github.com/rdbrck/react-draggable-list.git
 ```
 
 ## Usage
