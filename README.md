@@ -25,11 +25,11 @@ const React = require('react')
 const DraggableList = require('react-draggable-list')
 
 getInitialState () {
-  return [
+  return {itemsArray: [
     <div key="0">ITEM 0</div>,
     <div key="1">ITEM 1</div>,
     <div key="2">ITEM 2</div>
-    ]
+    ]}
 },
 
 // After the order has changed, DraggableList will retain the new order unless new props are passed
