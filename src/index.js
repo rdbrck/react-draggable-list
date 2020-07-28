@@ -1,21 +1,23 @@
 import './draggableList.less'
 
+const createReactClass = require('create-react-class')
+const PropTypes = require('prop-types')
 const React = require('react')
 
 const DEFAULT_DRAG_THRESHOLD = 10
 const RESTRICT_DRAGGING = true
 const MATCH_MOUSE_DOWN_BUTTON = 0
 
-module.exports = React.createClass({
+module.exports = createReactClass({
   displayName: 'DraggableList',
   propTypes: {
-    onOrderChanged: React.PropTypes.func.isRequired,
-    items: React.PropTypes.array.isRequired,
-    dragStartThreshold: React.PropTypes.number,
-    restrictDragging: React.PropTypes.bool,
-    className: React.PropTypes.string,
-    previewClassName: React.PropTypes.string,
-    matchMouseDownButton: React.PropTypes.number
+    onOrderChanged: PropTypes.func.isRequired,
+    items: PropTypes.array.isRequired,
+    dragStartThreshold: PropTypes.number,
+    restrictDragging: PropTypes.bool,
+    className: PropTypes.string,
+    previewClassName: PropTypes.string,
+    matchMouseDownButton: PropTypes.number
   },
 
   /* Parameters access */
