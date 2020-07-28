@@ -41,8 +41,6 @@ module.exports = createReactClass({
     document.removeEventListener('mousemove', this.onMouseMove)
   },
   componentWillReceiveProps (nextProps) {
-    if (this.state.isItemMoving) return
-
     let updateList = false
     if (this.props.items.length != nextProps.items.length) {
       updateList = true
@@ -55,7 +53,11 @@ module.exports = createReactClass({
       }
     }
 
-    if (updateList) this.setState(this.getInitialState(nextProps))
+    if (this.state.isItemMoving) {
+      this.setState({ items: nextProps.items })
+    } else {
+      this.setState({ items: nextProps.items, movingIndex: null, preventAnimation: false })
+    }
   },
 
   /* Data lifecycle */
